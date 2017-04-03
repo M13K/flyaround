@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace CoavBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class CoavBundle extends Bundle
 {
 }

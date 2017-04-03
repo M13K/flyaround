@@ -1,0 +1,4 @@
+services:
+#    coav.example:
+#        class: CoavBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
