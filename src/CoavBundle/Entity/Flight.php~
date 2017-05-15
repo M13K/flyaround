@@ -190,28 +190,4 @@ class Flight
     {
         return $this->takeofTime;
     }
-
-    /**
-     * Set plane
-     *
-     * @param \CoavBundle\Entity\Planemodel $plane
-     *
-     * @return Flight
-     */
-    public function setPlane(\CoavBundle\Entity\Planemodel $plane = null)
-    {
-        $this->plane = $plane;
-
-        return $this;
-    }
-
-    /**
-     * Get plane
-     *
-     * @return \CoavBundle\Entity\Planemodel
-     */
-    public function getPlane()
-    {
-        return $this->plane;
-    }
 }

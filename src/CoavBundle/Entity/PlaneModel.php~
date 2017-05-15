@@ -191,45 +191,4 @@ class PlaneModel
     {
         return $this->status;
     }
-    /**
-     * Constructor
-     */
-    public function __construct()
-    {
-        $this->fligths = new \Doctrine\Common\Collections\ArrayCollection();
-    }
-
-    /**
-     * Add fligth
-     *
-     * @param \CoavBundle\Entity\Flight $fligth
-     *
-     * @return PlaneModel
-     */
-    public function addFligth(\CoavBundle\Entity\Flight $fligth)
-    {
-        $this->fligths[] = $fligth;
-
-        return $this;
-    }
-
-    /**
-     * Remove fligth
-     *
-     * @param \CoavBundle\Entity\Flight $fligth
-     */
-    public function removeFligth(\CoavBundle\Entity\Flight $fligth)
-    {
-        $this->fligths->removeElement($fligth);
-    }
-
-    /**
-     * Get fligths
-     *
-     * @return \Doctrine\Common\Collections\Collection
-     */
-    public function getFligths()
-    {
-        return $this->fligths;
-    }
 }
